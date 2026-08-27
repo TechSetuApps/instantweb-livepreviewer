@@ -1,6 +1,6 @@
-# InstantLiveServer LivePreviewer
+# InstantLiveServer–Plugin
 
-Live preview your HTML, CSS, and JavaScript files directly inside ACode — powered by the InstantLiveServer local server app. No Termux, no Node.js, no PC required.
+Live preview your HTML, CSS, and JavaScript <br> files directly inside ACode — powered by the InstantLiveServer local server app. <br> No Termux, no Node.js, no PC required.
 
 [<img src="https://img.shields.io/badge/Open%20Source-GitHub-181717?logo=github&style=for-the-badge" />](https://github.com/TechSetuApps/InstantLiveServer-Plugin)
 
@@ -8,64 +8,75 @@ Live preview your HTML, CSS, and JavaScript files directly inside ACode — powe
 
 ## Requirement
 
-This plugin requires the **InstantLiveServer** app (v1.4.0 or above) to function. InstantLiveServer runs a local HTTP server on your Android device that serves your HTML, CSS, and JS files.
+This plugin requires the **InstantLiveServer** app (v1.4.0 or above) to function. InstantLiveServer <br> runs a local HTTP server on your Android device <br> that serves your HTML, CSS, and JS files.
 
-Download InstantLiveServer:
-[GitHub — InstantLiveServer](https://github.com/TechSetuApps/InstantLiveServer/releases/tag/v1.4.0)
+Download App: [![InstantLiveServer](https://img.shields.io/badge/open--source-InstantLiveServer-181717?logo=github&logoColor=white)](https://github.com/TechSetuApps/InstantLiveServer/releases/tag/v1.4.0)
+
 
 ---
 
 ## Video Tutorial
 
-Watch the short setup guide on YouTube:
-[Short Video](https://youtube.com/shorts/fgUvjvr78O4)
+Quick Guide:
+[![Quik-Setup](https://img.shields.io/badge/YouTube-Quick--Setup-FF0000?logo=youtube&logoColor=white)](https://youtube.com/shorts/fgUvjvr78O4)
 
-Watch the long setup guide on YouTube:
-[Long Video](https://youtu.be/DkSCHwcYsRA?si=TVjHJMHLi6V8zTNY)
+Watch Full Guide:
+[![Full-Guide](https://img.shields.io/badge/YouTube-Full--Guide-FF0000?logo=youtube&logoColor=white)](https://youtu.be/DkSCHwcYsRA?si=vaTghvQROMVGzRSb)
 
 ---
 
 ## Installation Steps
 
-**Step 1 — Set Up InstantLiveServer**
+- **Set Up InstantLiveServer**
 
-1. Download and install InstantLiveServer from the link above.
-2. Open InstantLiveServer.
-3. Tap **Select .html File** and choose your HTML file.
-4. Optionally tap **Add More Files** to add CSS, JS, or JSON files.
-5. Tap **Start Hosting** — a short ad plays, then server starts on `http://127.0.0.1:7090`.
+> Download and install InstantLiveServer from the link above.
+>
+> Open InstantLiveServer.
+>
+> Tap **Select .html File** and choose your HTML file.
+>
+> Optionally tap **Select Folder** to Select Your Folder.
+>
+> Tap **Start Hosting** — a short ad plays, then server starts on `http://127.0.0.1:7090`.
 
-**Step 2 — Install This Plugin**
+- **Install This Plugin**
 
-1. Open ACode → menu icon → **Plugins**.
-2. Search for **InstantLiveServer LivePreviewer** → Install.
+> Open ACode → menu icon → **Plugins**.
+> Search for **InstantLiveServer** → Install.
 
 ---
 
 ## How to Use
 
-1. Open ACode and open any `.html` file.
-2. Make sure InstantLiveServer is running and hosting your file.
-3. Tap the floating **W** button, or press **Ctrl + Shift + W**.
-4. The live preview panel opens showing your page in real time.
-5. Save your file — preview auto-reloads within 500ms.
+> Open ACode and open any `.html` file.
+>
+> Make sure InstantLiveServer is running and hosting your file.
+>
+> Tap the floating **W** button, or press **Ctrl + Shift + W**.
+>
+> The live preview panel opens showing your page in real time.
+>
+> Save your file — preview auto-reloads within 500ms.
 
 ---
 
 ## Address Bar
 
-- **Normal mode** — shows your page title from the `<title>` tag
-- **Edit mode** — tap to change port and path (e.g. `7090/data.json`)
-- **Path support** — navigate to any hosted file like `/data.json` or `/style.css`
-- `localhost:` prefix is fixed and cannot be removed
+> **Normal mode** — shows your page title from the `<title>` tag
+> 
+> **Edit mode** — tap to change port and path (e.g. `7090/data.json`)
+> 
+> **Path support** — navigate to any hosted file like `/data.json` or `/style.css`
+> 
+> `localhost:` prefix is fixed and cannot be removed
 
 ---
 
 ## Features
 
 - Live preview with 500ms auto-reload
-- Address bar shows page title from `<title>` tag
-- Navigate to any hosted path (e.g. `/data.json`, `/config.json`)
+- Address bar shows
+- Navigate to any hosted path
 - Portrait and landscape layout support
 - Resizable preview panel
 - Fullscreen preview mode
@@ -79,19 +90,21 @@ Watch the long setup guide on YouTube:
 ## Troubleshooting
 
 **Preview not loading?**
-- Make sure InstantLiveServer is open and hosting
-- Check the port matches in both apps (default: `7090`)
-- Tap the reload button in the plugin panel
+> Make sure InstantLiveServer is open and hosting
+> 
+> Check the port matches in both apps (default: `7090`)
+> 
+> Tap the reload button in the plugin panel
 
 **CSS/JS not loading?**
-- In InstantLiveServer, use **Add More Files** to select CSS/JS files alongside your HTML
+> In InstantLiveServer, use **Add More Files** to select CSS/JS files alongside your HTML
 
 ---
 
 ## Open Source & Transparency
 
-This plugin is fully open source and publicly available at
-[github.com/TechSetuApps/InstantLiveServer-Plugin](https://github.com/TechSetuApps/InstantLiveServer-Plugin)
+This plugin is fully open source and publicly available at <br>
+[![https://github.com/TechSetuApps/InstantLiveServer-Plugin](https://img.shields.io/badge/open--source-InstantLiveServer--Plugin-181717?logo=github&logoColor=white)](https://github.com/TechSetuApps/InstantLiveServer-Plugin)
 
 It is maintained independently to promote transparency and user freedom.
 You are welcome to inspect, modify, or improve the code as needed.
@@ -104,7 +117,7 @@ This plugin is developed and maintained independently by **TechSetuApps** and is
 
 Use this plugin at your own risk. The developer is not responsible for any data loss, app malfunction, or system issues arising from its use.
 
-For feedback or bug reports, contact: **techsetuapps@gmail.com**
+For feedback or bug reports [![Create A Issue](https://img.shields.io/badge/InstantLiveServer-ISSUES-181717?logo=github&logoColor=white)](https://github.com/TechSetuApps/InstantLiveServer-Plugin/issues/new)
 
 ---
 

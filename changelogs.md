@@ -1,3 +1,5 @@
+## v1.4.2
+- **README** Updated
 ## v1.4.1
 - Setup video link added
 ## v1.4.0
