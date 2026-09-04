@@ -1,12 +1,12 @@
 {
   "$schema": "https://acode.app/schema/plugin.json",
   "id": "com.techsetuapps.instantweb.livepreviewer",
-  "name": "InstantLive Server",
+  "name": "InstantLiveServer-Plugin",
   "main": "main.js",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "icon": "icon.png",
   "license": "MIT",
-  "repository": "https://github.com/TechSetuApps/instantweb-livepreviewer",
+  "repository": "https://github.com/TechSetuApps/InstantLiveServer-Plugin",
   "keywords": [
     "live preview", "html live preview", "html preview",
     "live server", "livepreviewer", "live previewer",
